@@ -5,6 +5,21 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.performance-analytics]
+path = 'contracts/performance-analytics.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.service-provider-verification]
+path = 'contracts/service-provider-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.ticketing-integration]
+path = 'contracts/ticketing-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.transfer-optimization]
 path = 'contracts/transfer-optimization.clar'
 clarity_version = 2
